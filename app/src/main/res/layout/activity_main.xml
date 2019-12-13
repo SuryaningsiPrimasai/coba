@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
+        android:scaleType="center"
+        android:src="@drawable/yt" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_above="@+id/profile"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        android:textAllCaps="true"
+        android:text="HAI HAI HALO" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"/>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_gravity="center"
+        android:layout_below="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Kopi"/>
+
+    <Button
+        android:id="@+id/galeri"
+        android:layout_gravity="center"
+        android:layout_below="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galeri Menari"/>
+
+</LinearLayout>

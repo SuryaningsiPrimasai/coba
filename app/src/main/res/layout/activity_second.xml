@@ -1,0 +1,130 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:text="My Profil" />
+
+        <ImageView
+            android:id="@+id/foto"
+            android:layout_width="500dp"
+            android:layout_height="287dp"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/iya" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Biodata" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+        android:text="Nama Lengkap              : Suryaningsi Primasari \nNama Panggilan           : Ani \nTempat, Tanggal Lahir : Tulung Selapan, 03 Maret 1999
+        \nAsal                                 : Tulung Selapan, Ogan Komering Ilir, Sumatera \n                                           Selatan \nHobi                                 : Menari, Baca Webtoon
+        \nAgama                            : Islam \nGolongan Darah             : B \nEmail                               : a.prsy3@gmail.com
+        \nInstagram                       : anik.prs \nWhatsapp                       : +62 821-7604-0436 \nLine                                  : prs03
+        \nTinggi                              : 167cm \nBerat                               : 47kg
+        \nKewarganegaraan         : Indonesia \nKartun Favorit                : Doraemon " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Riwayat Pendidikan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+        android:text="1. SD Negeri 3 Tulung Selapan(2005 - 2011) \n2. SMP Negeri 1 Tulung Selapan (2011 - 2014)
+        \n3. SMA Negeri 1 Tulung Selapan (2014 - 2017) \n4. Universitas Sriwijaya, Fakultas Ilmu Komputer, Sistem Informasi (2017 - sekarang)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="Riwayat Organisasi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12dp"
+            android:text="1. Anggota EkstraKurikuler Tari (2014 - 2017) \n2. Anggota OSIS bidang budi pekerti (2014 - 2015)
+            \n3. Wakil Sekretaris OSIS (2015 - 2016) \n4. Anggota Divisi Tari bagian tradisional UKM Harmoni UNSRI (2017 - sekarang)
+            \n5. Staff Dinas Pengembangan Minat dan Bakat HIMSI FASILKOM UNSRI (2018) \n6. Wakil Sekretaris Umum UKM Harmoni UNSRI (2018 - sekarang)
+            \n7. Kepala Dinas Pengembangan Minat dan Bakat HIMSI FASILKOM UNSRI (2019 -\n    sekarang)
+            \n8. Asisten Laboratorium Multimedia FASILKOM UNSRI Indralaya (2019 - sekarang)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Riwayat Kepanitiaan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="12dp"
+            android:text="1. Panitia Acara Workshop Pemrograman Web 2 HIMSI FASILKOM UNSRI
+            \n2. Panitia Konsumsi Ulang Tahun UKM Harmoni UNSRI \n3. PJ Acara Lomba Essay SI FEST 2018 HIMSI FASILKOM UNSRI
+            \n4. Sekretaris Pelaksana Open Reqruitment Gen 5 UKM HARMONI UNSRI \n5. Master of Ceremony(MC) Inagurasi jurusan Sistem Informasi 2018
+            \n6. Master of Ceremony(MC) Seminar IT SI FEST 2018 \n7. Panitia Acara Pagelaran Seni Gen5 UKM Harmoni UNSRI
+            \n8. Panitia Acara Musyawarah Besar UKM Harmoni UNSRI \n9. Sekretaris Pelaksana Gebyar Dunia Seni Sriwijaya UNSRI
+            \n10. Kepala bagian Desain SICONIAN \n11. SC Seminar SI FEST 2019" />
+
+    </LinearLayout>
+</ScrollView>
